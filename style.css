@@ -17,7 +17,7 @@
 img {
   cursor: pointer;
   border-radius: 10px;
-  box-shadow: 3px 5px 5px var(--color1);
+  box-shadow: 5px 5px 5px var(--color1);
   transition: transform .2s;
   transition: box-shadow 0.3s ease-in-out
 }
@@ -249,38 +249,41 @@ body {
 
 .s3news3 {
   display: flex;
+  /* height: 630px; */
 }
 
 .s3news3 img {
   margin-bottom: 10px;
   width: 500px;
+  height: 300px;
 }
 
 
 
 .s3news3 div:nth-child(2) {
   margin-left: 40px;
+  line-height: 24px;
 }
 
 .s3news3 div:nth-child(2) h1 {
-  font-size: 25px;
+  font-size: 23px;
   margin-bottom: 10px;
-  line-height: 35px;
+  line-height: 25px;
 }
 
 .s3news3 div:nth-child(2) p:nth-child(2) {
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 10px;
 }
 
 .s3news3 div:nth-child(2) p:nth-child(3) {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 #s4 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 
 footer {
@@ -452,6 +455,7 @@ input[type=checkbox] {
   .s3news3 img {
     margin-bottom: 10px;
     width: 100%;
+    height: 400px;
   }
 
   .s3news3 div:nth-child(2) {
@@ -541,6 +545,10 @@ input[type=checkbox] {
     width: 100%;
     margin-top: 40px;
   }
+  .s3news3 img {
+    
+    height: 600px;
+}
 
   main #s4:nth-child(1) {
     flex-direction: column;
@@ -596,7 +604,9 @@ input[type=checkbox] {
     margin-top: -15px;
     font-size: 10px;
   }
-
+  .s3news3 img {
+    height: 500px;
+}
   #logo {
     flex-direction: column;
     margin: 0px 0px;
@@ -648,5 +658,8 @@ input[type=checkbox] {
   display: flex;
   flex-direction: column !important;
   width: 100%;
+}
+.s3news3 img {
+  height: 250px;
 }
 }
