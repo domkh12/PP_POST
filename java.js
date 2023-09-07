@@ -51,3 +51,39 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+const show_main = document.getElementsByClassName('show_main');
+const show_main_h1 = document.querySelector('.show_main h1');
+const show_main_img = document.querySelector('.show_main img');
+const show_main_p = document.querySelector('.show_main p:nth-child(4)');
+
+let pageOpened = false;
+
+    // Function to open the page
+    function openPage() {
+      if (!pageOpened) {
+        window.open('main.html', '_parent');
+        pageOpened = true;
+        
+      }
+    }
+
+    document.getElementById('readmore').addEventListener('click', openPage);
+    document.querySelector('.s3left #readmore').addEventListener('click', openPage);
+    document.querySelector('.s3news3:nth-child(1) #readmore').addEventListener('click', openPage);
+    document.querySelector('.s3news3:nth-child(2) #readmore').addEventListener('click', openPage);
+    document.querySelector('.s3news3:nth-child(3) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2 .s3news3:nth-child(1) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2 .s3news3:nth-child(2) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2 .s3news3:nth-child(3) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2 .s3news3:nth-child(4) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2 .s3news3:nth-child(5) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2 .s3news3:nth-child(6) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2:nth-child(2) .s3news3:nth-child(1) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2:nth-child(2) .s3news3:nth-child(2) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2:nth-child(2) .s3news3:nth-child(3) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2:nth-child(2) .s3news3:nth-child(4) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2:nth-child(2) .s3news3:nth-child(5) #readmore').addEventListener('click', openPage);
+    document.querySelector('#s4 .s3container2:nth-child(2) .s3news3:nth-child(6) #readmore').addEventListener('click', openPage);
+
