@@ -19,7 +19,7 @@ img {
   border-radius: 10px;
   box-shadow: 5px 5px 5px var(--color1);
   transition: transform .2s;
-  transition: box-shadow 0.3s ease-in-out
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 img:hover {
@@ -442,8 +442,6 @@ main #s4:nth-child(1) {
   color: var(--color2);
 }
 
-/* RESPONSIVE NAVBAR MENU STARTS */
-
 /* CHECKBOX HACK */
 
 input[type=checkbox] {
@@ -477,6 +475,19 @@ input[type=checkbox] {
   background-color: var(--color2); /* Add a dark-grey background on hover */
 }
 
+.sectionP2_main{
+  margin: 0px 10%;
+}
+
+.sectionP2_main p:nth-child(4){
+  margin: 0 40px;
+  text-align: justify;
+}
+
+.h1_main{
+  text-align: center;
+  font-size: 3rem;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   html {
@@ -692,6 +703,10 @@ input[type=checkbox] {
 .show_main h1 {
   font-size: 30px;
   padding: 20px 0px;
+}
+
+.sectionP2_main {
+  margin: 0px 0px;
 }
 
 }

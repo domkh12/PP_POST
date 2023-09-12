@@ -22,7 +22,7 @@ window.addEventListener("scroll", function () {
     if (window.scrollY > 230) {
       header.classList.add("sticky");
       header.style.width = bodyWidth + "px"; // Set the width to body width
-      header1.style.paddingBottom = "90" + "px";
+      header1.style.paddingBottom = "70" + "px";
     } else {
       header.classList.remove("sticky");
       header.style.width = "100%"; // Reset to 100% when not sticky
@@ -89,7 +89,8 @@ let pageOpened = false;
     function openPage() {
       if (!pageOpened) { 
          window.open('main.html', '_parent');
-        pageOpened = true;        
+        pageOpened = true;
+               
       }
     }
 
@@ -110,3 +111,6 @@ let pageOpened = false;
     document.querySelector('#s4 .s3container2:nth-child(2) .s3news3:nth-child(4) #readmore').addEventListener('click', openPage);
     document.querySelector('#s4 .s3container2:nth-child(2) .s3news3:nth-child(5) #readmore').addEventListener('click', openPage);
     document.querySelector('#s4 .s3container2:nth-child(2) .s3news3:nth-child(6) #readmore').addEventListener('click', openPage);
+
+
+   
